@@ -1,0 +1,20 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+//コードからアニメーション切り替え
+public class DogManager : MonoBehaviour
+{
+    Animator animator;
+    
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
+
+    
+    void Update()
+    {
+        
+    }
+}
